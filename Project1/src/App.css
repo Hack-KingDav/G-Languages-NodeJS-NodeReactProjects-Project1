@@ -1,0 +1,313 @@
+.box_AdminUser {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    max-height: 100vh;
+    /* height: auto; */
+    overflow-y: scroll;
+    box-shadow: 0px 1px 1vh 0vh rgb(115, 115, 115);
+    /* box-shadow: 2px 2px 5px black; */
+    /* border: 2px solid red; */
+
+}
+.box_DayCategoryheader {
+    text-align: center;
+    background-color: #44abff;
+    display: flex;
+    padding: 20px;
+    height: 5vh;
+    /* box-shadow: 1vh 1vh 1.5vh 1px rgb(115, 115, 115); */
+    /* box-shadow: 1px 1px 4px 1px rgb(149, 149, 149); */
+    border-radius: 2px;
+}
+.box_AdminUser_body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.box_AdminUser_body_sectionA {
+    display: flex;
+    height: 7vh;
+    /* border: 2px solid black; */
+    height: 7vh;
+    /* box-sizing: border-box; */
+    flex-wrap: wrap;
+}
+.box_DayCategory_body_sectionB {
+    /* border: 2px solid violet; */
+    margin: 0vw 8vw 0vw 5vw;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+}
+.table_All_rows {
+    /* overflow-x: auto; */
+    text-align: center;
+}
+/* ------------------------------------------Table------------------------------------ */
+.box_AdminUser_body_sectionB {
+    /* border: 2px solid violet; */
+    margin: 2vw 8vw 0vw 5vw;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+}
+
+.table {
+    width: 50vw;
+
+}
+
+.table_head {
+    background-color: #000;
+    color: white;
+    box-shadow: #ffffff;
+}
+
+.table_head1 {
+    border: none;
+    /* padding-top: 1vh;
+    padding-bottom: 1vh; */
+    padding: 1vh 3vw 1vh 3vw;
+
+}
+
+.table_head1_Fullname {
+    /* overflow-x: auto; */
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.table_head1_Email {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.table_head1_Action {
+    overflow-x: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.table_add_user_module_button {
+    min-width: 6vw;
+    /* margin-left: 72%; */
+    color: white;
+    text-decoration: none;
+    padding: 1.3vh 1vw 1.3vh 2vw;
+    background-color: #0d00fc;
+    box-shadow: 3vh #000;
+}
+
+.table_All_rows {
+    /* overflow-x: auto; */
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------ */
+.box_AdminUser_button {
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 800px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------------------------- */
+.t_header {
+    background-color: #000;
+    color: white;
+    /* text-decoration: none; */
+    border: none;
+    height: 1vh;
+    margin-left: 5px;
+}
+
+#header {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 70px;
+    /* border: 2px solid black; */
+    height: 500px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+#admin {
+    display: flex;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+    text-align: center;
+}
+
+#lowertable {
+    margin-top: 5vh;
+    width: 110vh;
+    margin-left: 50px;
+
+}
+
+td {
+    padding: 15px;
+}
+
+.search_button:hover {
+    background-color: rgb(33, 33, 158);
+}
+
+.th-black {
+    background-color: rgb(21, 2, 2);
+    color: white;
+}
+
+/* .search-button {
+      padding: 6px 10px;
+      background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+} */
+
+/* ------------------------------------ Audit Logs Page: -------------------- */
+.box_AuditLogsHeader {
+    background-color: #44abff;
+    display: flex;
+    padding: 20px;
+    height: 8vh;
+    width: 90vw;
+    box-shadow: 1vh 1vh 1.5vh 1px rgb(115, 115, 115);
+    /* box-shadow: 1px 1px 4px 1px rgb(149, 149, 149); */
+    border-radius: 2px;
+}
+
+.AuditLogs_SelectUser {
+    margin: 2vh 0vh 0vh 3vh;
+}
+
+#SelectUsersSelect {
+    padding: 1vh;
+    margin-left: 1rem;
+    width: 10rem;
+}
+
+/*------------------------------------ Day Category ------------------------------*/
+.box_DayCategoryheader {
+    text-align: center;
+    background-color: #44abff;
+    display: flex;
+    padding: 20px;
+    height: 5vh;
+    /* box-shadow: 1vh 1vh 1.5vh 1px rgb(115, 115, 115); */
+    /* box-shadow: 1px 1px 4px 1px rgb(149, 149, 149); */
+    border-radius: 2px;
+}
+
+#Category_HeddingText {
+    color: white;
+    margin-left: 43%;
+}
+
+.DayCategory_Navigation{
+    margin: 8vh 0vh 0vh 10vh;
+}
+.DayCategory_NavigationButtons{
+    padding: 1vh 1vh 1vh 1vh;
+    background-color: white;
+    color: black;
+    font-size: 2vh;
+    cursor: pointer;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 1.5vh;
+}
+.DayCategory_NavigationButtons:focus {
+    background-color: #4285f4;
+    color: white;
+}
+.DayCategory_hrTag{
+    border: 1px solid rgb(225, 225, 225);
+    width: 63vw;
+}
+
+.box_DayCategory_body_sectionB {
+    /* border: 2px solid violet; */
+    margin: 0vw 8vw 0vw 5vw;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+}
+
+.DayCategory_table_head {
+    background-color: #000;
+    color: white;
+    box-shadow: #ffffff;
+}
+
+.table_head1_CategoryName {
+    padding-left: 10vw;
+    padding-right: 13vw;
+}
+
+/*------------------------------------ Day Category2 ------------------------------*/
+.DayCategory2_table_row{
+    text-align: center;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: aliceblue;
+    background-size: 100%;
+}
+.DayCategory2_ChooseFile{
+    border: 1px solid rgb(116, 116, 116);
+    background-color: white;
+}
+.DayCategory2_table_head1_CategoryName {
+    padding-left: 7vw;
+    padding-right: 10vw;
+}
+.DayCategory2_navigateButtons{
+    display: flex;
+    margin: 0vw 0vw 0vw 50vw;
+}
+.DayCategory_Extra_NavigationButtons{
+    /* margin: 1vw 1vw 0vw 43.5vw; */
+    margin-left: 47%;
+    /* margin-left: 25.5vw; */
+    white-space: nowrap;
+    display: inline-flex;
+    /* border: 1px solid red; */
+}
+.DayCategory_Extra_NavigationButton1{
+    padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    margin: 0vh 1vh 0vh 0vh;
+    color: white;
+    background-color: #e67e22;
+    cursor: pointer;
+}
+.DayCategory_Extra_NavigationButton2{
+    padding: 1.5vh 2vh 1.5vh 2vh;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    margin: 0vh 1vh 0vh 1vh;
+    color: white;
+    background-color: #17a2b8;
+    cursor: pointer;
+}
+.DayCategory_Extra_NavigationButton3{
+    padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    margin: 0vh 0vh 0vh 1vh;
+    color: white;
+    background-color: #17a2b8;
+    cursor: pointer;
+}
